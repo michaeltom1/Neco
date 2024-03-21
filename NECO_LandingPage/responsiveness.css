@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+  header {
+    padding-bottom: 60rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .par1{
+    padding-left: 4rem;
+    padding-right: 5rem;
+  }
+
+  .avatars-div,
+  .btn,
+  ul {
+    display: none;
+  }
+
+  .tsb {
+    width: 30rem;
+    /* padding-left: 1rem; */
+  }
+
+  .header {
+    display: block;
+    font-size: small;
+    padding: auto;
+  }
+  .header-txt {
+    padding-top: 10rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .side {
+    left: 30%;
+    top: 5rem;
+    height: 40px;
+    width: 12rem;
+    rotate: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    writing-mode: horizontal-tb;
+    border-radius: 0 15px 15px 15px;
+  }
+
+  .section-one {
+    display: block;
+  }
+}

@@ -1,0 +1,283 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+  .boook,
+  .Login,
+  .dLines {
+    display: none;
+  }
+  .nav-ul{
+    display: none;
+  }
+
+  .header {
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 155vh;
+  }
+  .header-txt {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-right: 1rem;
+  }
+
+  h1 {
+    font-size: 1.875rem;
+    padding: 1rem 4rem 1rem 4rem;
+  }
+
+  .side {
+    left: 30%;
+    top: 5rem;
+    height: 40px;
+    width: 12rem;
+    rotate: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    writing-mode: horizontal-tb;
+    border-radius: 0 15px 15px 15px;
+  }
+  .s-exams {
+    top: 120rem;
+  }
+  .s-downloads {
+    top: 322.7rem;
+  }
+  .s-blog {
+    top: 370rem;
+  }
+
+  .header-txt {
+    padding-top: 10rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .par1 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+  }
+
+  .tsb {
+    width: 100%;
+    height: 488px;
+    object-fit: cover;
+    max-width: 100%;
+    margin-top: 0.65rem;
+    vertical-align: middle;
+  }
+
+  .avatars-div {
+    display: none;
+  }
+  .section-one {
+    /* margin-top: 0rem; */
+    padding-bottom: 5rem;
+  }
+  .section {
+    padding: 0;
+    margin: 0;
+    display: block;
+    padding-right: 0rem;
+
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+  }
+  .subhead {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 0;
+    text-align: center;
+  }
+  .section-one-par {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .btn2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .section-two {
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    padding: 10rem 0 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  container-bx {
+    padding: 0;
+    margin: 0;
+  }
+  .container-bxp {
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .subhead2 {
+    text-align: left;
+    width: 50%;
+  }
+
+  .section-two-par2 {
+    padding-right: 1rem;
+  }
+  .dLinesb {
+    display: none;
+  }
+
+  .downloads {
+    padding: 0;
+    margin: 0;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    justify-content: left;
+    height: 100vh;
+  }
+
+  .d-subhead {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 2.25rem;
+  }
+  .downloads-txt {
+    padding-top: 5rem;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 1.25rem;
+  }
+  .section-three-par3 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 10px;
+    /* padding-bottom: 10rem; */
+  }
+  .btn-downloads {
+    width: 50%;
+    margin: 20px;
+    margin-left: 10px;
+    margin-top: 4rem;
+  }
+  .smiling-girl {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .date-sectiontxt {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+  .Postponed {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .datep {
+    padding-top: 0rem;
+  }
+  .date-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5rem;
+  }
+  .logo-div,
+  .footerLogo {
+    display: none;
+    position: absolute;
+  }
+  footer {
+    padding: 10px;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+  .footer-s1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    padding-bottom: 5rem;
+
+    /* background: red; */
+    display: grid;
+    grid-row: 10px;
+    grid-column: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-s2 {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+  }
+  .menu-icon {
+    width: 2rem;
+  }
+  .numbers-div {
+    padding-top: 2rem;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .boook,
+  .Login,
+  .dLines {
+    display: none;
+  }
+
+  .nav-ul{
+    display: none;
+  }
+
+  .header {
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 155vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .boook,
+  .Login,
+  .dLines {
+    display: flex;
+  }
+
+   .nav-ul{
+    display: flex;
+  }
+
+}

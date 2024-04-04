@@ -33,12 +33,10 @@ a {
 }
 header {
   /* position: relative; */
-  /* height: 113.2vh; */
+  height: 113.2vh;
   background: var(--header-background);
 }
 
-
-  
 nav {
   position: fixed;
   background-color: var(--body-color);
@@ -118,11 +116,6 @@ ul {
   padding-left: 5rem;
   padding-right: 3rem;
 }
-.menu-icon {
-  /* position: absolute; */
-  display: none;
-  width: 1px;
-}
 
 .boook {
   color: var(--navlink-color);
@@ -154,7 +147,7 @@ h1 {
 .tsb {
   width: 694px;
   height: 769px;
-  object-fit: cover;
+ object-fit: cover;
 }
 
 .side {
@@ -228,10 +221,9 @@ h1 {
   gap: 8rem;
   padding: 5rem;
   padding-right: 2rem;
-  /* width: 100%; */
 }
 .section-one {
-  /* width: 198vh; */
+  width: 198vh;
 }
 
 .dLines {
@@ -427,9 +419,6 @@ h1 {
   width: 48%;
 }
 
-.smiling-girl {
-  width: 44rem;
-}
 .PostponedLinks {
   color: #000;
   font-size: 0.875rem;

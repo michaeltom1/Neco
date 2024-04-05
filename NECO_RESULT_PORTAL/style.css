@@ -7,8 +7,6 @@
   font-family: sans-serif; /*poppins*/
 }
 
-/* body{background-color: #333;} */
-
 :root {
   /*colors*/
   --body-color: #ffffffff;
@@ -23,6 +21,10 @@ body {
   display: flex;
   height: 100vh;
   /* background: #707070; */
+}
+.body {
+  width: 100%;
+  background: rebeccapurple;
 }
 button {
   cursor: pointer;
@@ -69,9 +71,18 @@ ul {
 .navbar {
   align-items: center;
   display: flex;
-  gap: 48rem;
-  padding: 1rem;
+  justify-content: space-between;
   background: var(--navbar-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.somediv {
+  display: flex;
+  width: 100%;
+  background: #000;
 }
 
 .introduction {
@@ -79,13 +90,19 @@ ul {
   text-align: center;
   justify-content: center;
   padding: 2rem;
+  background: #b87e7e;
 }
 .dashboard-txt {
   text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
 }
 
 .box {
-  /* background: red; */
+  background: red;
+  padding-left: 0%;
+  padding: 0%;
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -106,7 +123,7 @@ ul {
 
 .abar2 {
   width: 4rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   background: var(--primary-color);
   padding: 10px;
 }
@@ -149,15 +166,17 @@ ul {
 }
 
 .md-box-container {
+  background: palegreen;
   display: flex;
   padding-left: 2rem;
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
+  padding-left: 0%;
 }
 
 .md-box {
-  height: 15rem;
+  height: 16rem;
   width: 17rem;
   border: 1px solid #e4e6ebff;
   border-radius: 0.2rem;
@@ -201,107 +220,16 @@ ul {
   margin-top: 1rem;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif; /*poppins*/
-}
-
-/* body{background-color: #333;} */
-
-:root {
-  /*colors*/
-  --body-color: #ffffffff;
-  --sidebar-color: #51b55fff;
-  --primary-color: #51b55fff;
-  --primary-color-light: #dcfce7ff;
-  --text-color: #707070;
-  --navbar-color: #f2f3f5ff;
-}
-
-body {
-  display: flex;
-  height: 100vh;
-}
-
-.side-bar {
-  height: 100vh;
-  width: 250px;
-  background: var(--sidebar-color);
-}
-
-.side-bar .logo {
-  width: 80px;
-  min-width: 60px;
-  display: flex;
-  align-items: center;
-}
-a {
-  text-decoration: none;
-  color: var(--body-color);
-}
-ul {
-  list-style: none;
-}
-
-.menu-bar {
-  padding-left: 30px;
-  display: flex;
-  margin-top: 20px;
-}
-ul {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.nav {
-  width: 100%;
-}
-
-.navbar {
-  align-items: center;
-  display: flex;
-  gap: 48rem;
-  padding: 1rem;
-  background: var(--navbar-color);
-}
-
-.introduction {
-  margin-top: 2rem;
-  text-align: center;
-  justify-content: center;
-  padding: 2rem;
-}
-.dashboard-txt {
-  text-align: left;
-}
-
-.box {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-.s-box {
-  width: 15em;
-  height: 6rem;
-
-  border: 1px solid #e4e6ebff;
-  border-radius: 0.2rem;
-  display: flex;
-  padding: 1rem;
-}
-
-.abar2 {
+.md-bd-img {
   width: 5rem;
-  background-color: rgb(252, 3, 3);
-  border-radius: 0.2rem;
-  background: var(--primary-color);
+  border-radius: 0.25rem;
+  border-radius: 50%;
+  padding: 10px;
+  background: #dcfce7;
 }
-.text-number {
-  text-align: right;
+
+.md-bd-img-block {
+  width: 5rem;
+  padding: 10px;
+  border-radius: 50%;
 }
